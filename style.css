@@ -1,0 +1,79 @@
+body{
+    background-color: #ffffff;
+}
+marquee {
+    height: 40px;
+    font-size: 200%;
+    border-style:groove;
+    border-color: rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 25px;
+}
+.myinfo{
+    display:flex;
+    flex-wrap: wrap;
+  justify-content:space-evenly; ;
+  border-style:double;
+  border-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  background-color:#ffffff;
+  margin-left:5cm;
+  margin-right:5cm;
+  margin-top:2cm;
+  padding:1cm;
+}
+
+.aboutme_space{
+  margin-right: 3cm;
+  margin-top: 5px;
+}
+
+
+.Snake{
+  border-radius: 50px;
+
+}
+
+.All_games{
+  border-style:double ;
+  display:flex;
+    flex-wrap: wrap;
+  justify-content:space-evenly; ;
+  border-style:double;
+  border-color: rgb(0, 0, 0);
+  border-radius: 25px;
+  background-color:#000000;
+  margin-left:5cm;
+  margin-right:5cm;
+  /* margin-top:2cm; */
+  padding:1cm;
+  flex-basis: 100%;
+}
+
+.Each_game{
+  flex-basis: 40%;
+  margin: 50px;
+  margin-left: 10px;
+  border-style: double;
+  border-radius: 50px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.gameimg{
+  margin-left: 100px;
+
+}
+p{
+font-size: 40px;
+font-weight: bold;
+text-align: center;
+text-decoration: underline;
+}
+
+.gametext{
+  text-align: center;
+  font-size: 60px;
+font-weight: bold;
+
+}
